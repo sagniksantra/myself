@@ -1,0 +1,31 @@
+.log-in {
+  width: 70%;
+  margin-top: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+  align-items: center;
+  padding: 2rem;
+  border: 1px solid #f7f7f7;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+}
+
+label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Use media queries to adjust the layout of the form on different screen sizes */
+@media (max-width: 600px) {
+  form {
+    width: 90%;
+  }
+}

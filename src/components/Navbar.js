@@ -47,7 +47,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <Link to="/" className="navbar-logo">
-                    <img src="mes-logo-small.png" alt="" />
+                    <h1>👋</h1>
                 </Link>
                 <div className="menu-icon"  onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -64,10 +64,10 @@ function Navbar() {
                         className='nav-links'
                         onClick={closeMobileMenu}
                     >
-                        Events
+                        AboutMe
                     </Link>
                     </li>
-                    <li className='nav-item'>
+                    {/* <li className='nav-item'>
                     <Link
                         to='/register'
                         className='nav-links'
@@ -93,9 +93,9 @@ function Navbar() {
                     >
                         Login
                     </Link>
-                    </li>
+                    </li> */}
                 </ul>
-                {Button && <Button buttonStyle='btn--outline'>LOGIN</Button>}
+                {/* {Button && <Button buttonStyle='btn--outline'>LOGIN</Button>} */}
             </div>
         </nav>
      </>

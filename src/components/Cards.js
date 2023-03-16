@@ -5,15 +5,15 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out our EPIC Events!</h1>
+      <h1>Check out my projects</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='stock.png'
-              text='Event Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
-              label='Infotainment'
-              path='/register'
+              src='mes-logo1.png'
+              text='MES Official Website'
+              label='MERN'
+              path='https://github.com/sagniksantra/mes2.2'
             />
             <CardItem
               src='stock.png'

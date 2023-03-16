@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Ultimate Entrepreneurship Newsletter
+          Join my Tech and Entrepreneurship Newsletter
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -27,18 +27,17 @@ function Footer() {
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          {/* <div class='footer-link-items'>
             <h2>About Us</h2>
             <Link to='/'>The Entrepreneurship Cell</Link>
             <Link to='/'>MIT Manipal</Link>
             <Link to='/'> </Link>
             <Link to='/'> </Link>
-          </div>
+          </div> */}
           <div class='footer-link-items'>
-            <h2>Contact Us</h2>
+            <h2>Contact Me</h2>
             <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Sponsorships</Link>
+            <Link to='/'>Buy me a Coffee</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
@@ -55,10 +54,10 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              <img src="mes-logo1.png" alt="" />
+              {/* <img src="mes-logo1.png" alt="" /> */}
             </Link>
           </div>
-          <small class='website-rights'>MES © 2023</small>
+          <small class='website-rights'>Sagnik © 2023</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
